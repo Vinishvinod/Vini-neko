@@ -9,8 +9,8 @@ module.exports = {
      * bot details and parameters
      */
     botname: process.env.BotName || "Neko chan ",
-    footer: process.env.Footer || "© Powered By Queen vinish",
-    prefa: process.env.Prefix || "-",
+    footer: process.env.Footer || "© Powered By vinish",
+    prefa: process.env.Prefix || "^^",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
@@ -26,7 +26,7 @@ module.exports = {
     author: process.env.Author || "@viniBotz",
     packname: process.env.PackName || "Neko chan v2 MD",
     socialLink: process.env.Web || "",
-    groupLink: process.env.GcLink || "",
+    groupLink: process.env.GcLink || "https://chat.whatsapp.com/LTxQUNcGw3dA2KMWaTi15A",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "mongodb+srv://Vinish_luv:<vinish143>@cluster0.tgkmp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
