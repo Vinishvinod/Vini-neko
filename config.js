@@ -8,8 +8,8 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Queen Anya Bot",
-    footer: process.env.Footer || "© Powered By Queen Anya Bot",
+    botname: process.env.BotName || "Neko chan ",
+    footer: process.env.Footer || "© Powered By Queen vinish",
     prefa: process.env.Prefix || "-",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
@@ -18,19 +18,19 @@ module.exports = {
      */
     ownername: process.env.Owner_Name || " vinish_luv ",
     ownernumber: process.env.Owner_Number || "919035917135",
-    instagramId: process.env.Insta || "vini_neko",
+    instagramId: process.env.Insta || "vinish_luv",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "@PikaBotz",
-    packname: process.env.PackName || "Queen Anya v2 MD",
-    socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    author: process.env.Author || "@viniBotz",
+    packname: process.env.PackName || "Neko chan v2 MD",
+    socialLink: process.env.Web || "",
+    groupLink: process.env.GcLink || "",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "mongodb+srv://Vinish_luv:<vinish143>@cluster0.tgkmp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-    sessionId: process.env.SESSION_ID || " NWp2bjR_Queen-Anya_odGc= ",
+    sessionId: process.env.SESSION_ID || " c_Queen-Anya_XRwMmc_Queen-Anya_ybDU= ",
 
     /**
      * thumbnails and medias
