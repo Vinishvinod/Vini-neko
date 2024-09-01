@@ -10,7 +10,7 @@ module.exports = {
      */
     botname: process.env.BotName || "Neko chan ",
     footer: process.env.Footer || "© Powered By vinish",
-    prefa: process.env.Prefix || "^^",
+    prefa: process.env.Prefix || "^-^",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
@@ -25,7 +25,7 @@ module.exports = {
      */
     author: process.env.Author || "@viniBotz",
     packname: process.env.PackName || "Neko chan v2 MD",
-    socialLink: process.env.Web || "",
+    socialLink: process.env.Web || "vinish@github.com",
     groupLink: process.env.GcLink || "https://chat.whatsapp.com/LTxQUNcGw3dA2KMWaTi15A",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
